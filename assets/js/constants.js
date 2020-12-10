@@ -1,9 +1,15 @@
-const KEY_UP = 38;
-const KEY_RIGHT = 39;
-const KEY_DOWN = 40;
 const KEY_LEFT = 37;
-const KEY_FIRE = 32;
+const KEY_RIGHT = 39;
+const SPACE_BAR = 32;
 
 const MOVEMENT_FRAMES = 10;
-const SPEED = 4;
+const SPEED = 2;
 const GRAVITY = 0.4;
+
+const GAMESTATE = {
+    PAUSED: 0,
+    RUNNING: 1,
+    MENU: 2,
+    GAMEOVER: 3,
+    YOUWIN: 4,
+  };
