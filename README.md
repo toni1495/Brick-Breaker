@@ -1,2 +1,0 @@
-# Brick-Breaker
-Game Ironhack
